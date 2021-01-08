@@ -1,0 +1,213 @@
+Last login: Mon Jun 29 13:15:50 2020 from 10.10.10.1
+
+
+enable
+
+terminal length 0
+
+
+
+configure terminal
+
+show interfaces loopback 0
+
+
+
+enable
+terminal length 0
+
+configure terminal
+show interfaces loopback 0
+
+Arista3>enable
+
+Arista3#terminal length 0
+
+Pagination disabled.
+
+Arista3#
+
+Arista3#configure terminal
+
+Arista3(config)#show interfaces loopback 0
+
+Loopback0 is up, line protocip_octets is up (connected)
+
+  Hardware is Loopback
+
+  Internet address is 3.3.3.3/32
+
+  Broadcast address is 255.255.255.255
+
+  IP MTU 65535 bytes (default)
+
+  Up 15 minutes, 37 seconds
+
+Arista3(config)#
+
+Arista3(config)#show ip int brief
+
+                                                                        Address 
+
+Interface       IP Address         Status      Protocip_octets          MTU    Owner
+
+--------------- ------------------ ----------- ------------- ---------- ------- 
+
+Loopback0       3.3.3.3/32         up          up              65535            
+
+Management1     10.10.10.4/24      up          up               1500            
+
+
+
+Arista3(config)#
+
+Arista3(config)#show ntp status
+
+NTP is disabled.
+
+Arista3(config)#
+
+_______________________________________________________________________
+
+Last login: Mon Jun 29 13:15:50 2020 from 10.10.10.1
+
+
+enable
+
+terminal length 0
+
+
+
+configure terminal
+
+show interfaces loopback 0
+
+
+
+enable
+terminal length 0
+
+configure terminal
+show interfaces loopback 0
+
+Arista2>enable
+
+Arista2#terminal length 0
+
+Pagination disabled.
+
+Arista2#
+
+Arista2#configure terminal
+
+Arista2(config)#show interfaces loopback 0
+
+Loopback0 is up, line protocip_octets is up (connected)
+
+  Hardware is Loopback
+
+  Internet address is 2.2.2.2/32
+
+  Broadcast address is 255.255.255.255
+
+  IP MTU 65535 bytes (default)
+
+  Up 16 minutes, 32 seconds
+
+Arista2(config)#
+
+Arista2(config)#show ip int brief
+
+                                                                        Address 
+
+Interface       IP Address         Status      Protocip_octets          MTU    Owner
+
+--------------- ------------------ ----------- ------------- ---------- ------- 
+
+Loopback0       2.2.2.2/32         up          up              65535            
+
+Management1     10.10.10.3/24      up          up               1500            
+
+
+
+Arista2(config)#
+
+Arista2(config)#show ntp status
+
+NTP is disabled.
+
+Arista2(config)#
+
+_______________________________________________________________________
+
+Last login: Mon Jun 29 13:15:50 2020 from 10.10.10.1
+
+
+enable
+
+terminal length 0
+
+
+
+configure terminal
+
+show interfaces loopback 0
+
+
+
+enable
+terminal length 0
+
+configure terminal
+show interfaces loopback 0
+
+Arista1>enable
+
+Arista1#terminal length 0
+
+Pagination disabled.
+
+Arista1#
+
+Arista1#configure terminal
+
+Arista1(config)#show interfaces loopback 0
+
+Loopback0 is up, line protocip_octets is up (connected)
+
+  Hardware is Loopback
+
+  Internet address is 1.1.1.1/32
+
+  Broadcast address is 255.255.255.255
+
+  IP MTU 65535 bytes (default)
+
+  Up 17 minutes, 33 seconds
+
+Arista1(config)#
+
+Arista1(config)#show ip int brief
+
+                                                                        Address 
+
+Interface       IP Address         Status      Protocip_octets          MTU    Owner
+
+--------------- ------------------ ----------- ------------- ---------- ------- 
+
+Loopback0       1.1.1.1/32         up          up              65535            
+
+Management1     10.10.10.2/24      up          up               1500            
+
+
+
+Arista1(config)#
+
+Arista1(config)#show ntp status
+
+NTP is disabled.
+
+Arista1(config)#
+
+_______________________________________________________________________
+
